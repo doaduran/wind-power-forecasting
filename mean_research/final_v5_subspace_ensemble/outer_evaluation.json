@@ -1,0 +1,108 @@
+{
+  "folds": [
+    {
+      "fold": "early_autumn",
+      "stage": "inner",
+      "base_all_rmse": 0.170302,
+      "new_all_rmse": 0.16779,
+      "diff_all_rmse": -0.002512,
+      "base_avail_rmse": 0.158068,
+      "new_avail_rmse": 0.155053,
+      "base_miss_rmse": 0.182063,
+      "new_miss_rmse": 0.179987
+    },
+    {
+      "fold": "early_winter",
+      "stage": "inner",
+      "base_all_rmse": 0.179622,
+      "new_all_rmse": 0.178943,
+      "diff_all_rmse": -0.000679,
+      "base_avail_rmse": 0.156412,
+      "new_avail_rmse": 0.155208,
+      "base_miss_rmse": 0.197058,
+      "new_miss_rmse": 0.196722
+    },
+    {
+      "fold": "spring_audit",
+      "stage": "outer",
+      "base_all_rmse": 0.15634,
+      "new_all_rmse": 0.151465,
+      "diff_all_rmse": -0.004875,
+      "base_avail_rmse": 0.140798,
+      "new_avail_rmse": 0.133858,
+      "base_miss_rmse": 0.171747,
+      "new_miss_rmse": 0.168644
+    },
+    {
+      "fold": "tuning",
+      "stage": "outer",
+      "base_all_rmse": 0.124679,
+      "new_all_rmse": 0.122805,
+      "diff_all_rmse": -0.001874,
+      "base_avail_rmse": 0.118359,
+      "new_avail_rmse": 0.116498,
+      "base_miss_rmse": 0.130764,
+      "new_miss_rmse": 0.128874
+    },
+    {
+      "fold": "autumn",
+      "stage": "outer",
+      "base_all_rmse": 0.170184,
+      "new_all_rmse": 0.16704,
+      "diff_all_rmse": -0.003144,
+      "base_avail_rmse": 0.147279,
+      "new_avail_rmse": 0.142291,
+      "base_miss_rmse": 0.191338,
+      "new_miss_rmse": 0.189617
+    },
+    {
+      "fold": "winter",
+      "stage": "outer",
+      "base_all_rmse": 0.195423,
+      "new_all_rmse": 0.192803,
+      "diff_all_rmse": -0.002621,
+      "base_avail_rmse": 0.16165,
+      "new_avail_rmse": 0.158001,
+      "base_miss_rmse": 0.222071,
+      "new_miss_rmse": 0.220081
+    }
+  ],
+  "pooled_outer_bootstrap": {
+    "all": {
+      "base_rmse": 0.163544,
+      "new_rmse": 0.160431,
+      "diff_rmse": -0.003113,
+      "sse_gain": 39.98018,
+      "winning_days": 178,
+      "days": 262,
+      "descriptive_seven_day_95_delta_interval": [
+        -0.004206,
+        -0.002103
+      ]
+    },
+    "available": {
+      "base_rmse": 0.142575,
+      "new_rmse": 0.138142,
+      "diff_rmse": -0.004433,
+      "sse_gain": 24.892827,
+      "winning_days": 172,
+      "days": 260,
+      "descriptive_seven_day_95_delta_interval": [
+        -0.006216,
+        -0.002797
+      ]
+    },
+    "missing": {
+      "base_rmse": 0.182437,
+      "new_rmse": 0.18032,
+      "diff_rmse": -0.002117,
+      "sse_gain": 15.087353,
+      "winning_days": 149,
+      "days": 261,
+      "descriptive_seven_day_95_delta_interval": [
+        -0.003122,
+        -0.001147
+      ]
+    }
+  }
+}

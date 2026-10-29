@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+.venv/
+venv/
+train.csv
+test.csv
+sample_submission.csv
+reproduced/
+.runtime-packages/
+.DS_Store
+Thumbs.db

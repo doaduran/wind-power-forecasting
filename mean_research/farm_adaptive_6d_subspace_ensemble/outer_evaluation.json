@@ -1,0 +1,60 @@
+{
+  "outer_by_farm": [
+    {
+      "farm": 1,
+      "base_all": 0.143683,
+      "new_all": 0.141975,
+      "diff_all": -0.001708,
+      "diff_avail": -0.001735,
+      "diff_miss": -0.001695
+    },
+    {
+      "farm": 2,
+      "base_all": 0.181092,
+      "new_all": 0.180326,
+      "diff_all": -0.000766,
+      "diff_avail": -0.00144,
+      "diff_miss": -0.000382
+    },
+    {
+      "farm": 3,
+      "base_all": 0.185635,
+      "new_all": 0.181671,
+      "diff_all": -0.003964,
+      "diff_avail": -0.006506,
+      "diff_miss": -0.00177
+    },
+    {
+      "farm": 4,
+      "base_all": 0.148102,
+      "new_all": 0.14615,
+      "diff_all": -0.001952,
+      "diff_avail": -0.001709,
+      "diff_miss": -0.002171
+    },
+    {
+      "farm": 5,
+      "base_all": 0.189085,
+      "new_all": 0.181975,
+      "diff_all": -0.00711,
+      "diff_avail": -0.01249,
+      "diff_miss": -0.003601
+    },
+    {
+      "farm": 6,
+      "base_all": 0.139581,
+      "new_all": 0.137974,
+      "diff_all": -0.001607,
+      "diff_avail": -0.001481,
+      "diff_miss": -0.001732
+    },
+    {
+      "farm": 7,
+      "base_all": 0.14885,
+      "new_all": 0.14607,
+      "diff_all": -0.00278,
+      "diff_avail": -0.002172,
+      "diff_miss": -0.003435
+    }
+  ]
+}
