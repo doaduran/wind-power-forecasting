@@ -2,16 +2,7 @@
 
 Forecasting normalized wind power **1-24 hours ahead across seven wind farms**, with separate point and probabilistic forecasting tracks. Developed for the **Bogazici University MATH482 Kaggle course competitions** in October 2026.
 
-The project explores structured missing weather forecasts, spatial dependence between farms, chronological validation, and calibrated predictive uncertainty.
-
-## Results
-
-| Course competition | Metric, lower is better | Public leaderboard | Private leaderboard | Final private rank |
-| --- | --- | ---: | ---: | ---: |
-| [Mean forecasting](https://www.kaggle.com/competitions/math482-wind-power-mean-2026) | RMSE | 0.17260 | **0.16376** | **11th** |
-| [Uncertainty forecasting](https://www.kaggle.com/competitions/math482-wind-power-uncertainty-2026) | Gaussian NLL plus a second-moment penalty | -0.39422 | **-0.51521** | **5th** |
-
-Scores and ranks are reported in the submitted competition notebooks. They refer to course competitions, not an open global Kaggle competition. Hidden test labels are not included, so leaderboard scores cannot be recomputed here.
+The central question is how to forecast power when a farm has no local weather forecast, and how to express the uncertainty of that prediction. The approach reconstructs weather from neighboring farms, uses different models for observed and missing weather, and compares predictions across chronological seasonal splits.
 
 ## The forecasting problem
 
@@ -41,6 +32,17 @@ The figures below are supplied competition diagnostics, retained with the report
 ![Mean forecasting diagnostics](assets/final_v5_diagnostics.png)
 
 ![Uncertainty forecasting diagnostics](assets/final_v14_diagnostics.png)
+
+## Evaluation and competition results
+
+The project was developed for two [MATH482 mean](https://www.kaggle.com/competitions/math482-wind-power-mean-2026) and [uncertainty](https://www.kaggle.com/competitions/math482-wind-power-uncertainty-2026) course competitions.
+
+| Forecasting task | Metric, lower is better | Public leaderboard | Private leaderboard |
+| --- | --- | ---: | ---: |
+| Mean power | RMSE | 0.17260 | 0.16376 |
+| Predictive uncertainty | Gaussian NLL plus a second-moment penalty | -0.39422 | -0.51521 |
+
+The uncertainty submission placed fifth in its course competition. Scores are reported in the submitted notebooks; hidden test labels are not included, so leaderboard scores cannot be recomputed from this repository.
 
 ## Reproduce the saved predictions
 
